@@ -27,10 +27,10 @@ Y.sort()
 Y = np.array([G_inv(Y[i]) for i in range(len(Y))])
 
 # Function F^
-_F_ = lambda x: sum(X[i] for i in range(len(X)) if X[i] <= x) / len(X)
+_F_ = lambda x: len([i for i in range(len(X)) if X[i] <= x]) / len(Y)
 
 # Function G^
-_G_ = lambda x: sum(Y[i] for i in range(len(Y)) if Y[i] <= x) / len(Y)
+_G_ = lambda x: len([i for i in range(len(Y)) if Y[i] <= x]) / len(Y)
 
 # Finding D_nm_plus
 D_nm_plus = max([(i+1)/N - _G_(X[i]) for i in range(len(X))])

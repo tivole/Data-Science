@@ -5,7 +5,6 @@ NUMBER_ON_TABLE = 7 # Your ID number on group list
 N = 100 # How many numbers you want to take as "First Sample"
 M = 100 # How many numbers you want to take as "Second Sample"
 
-
 # Importing the libraries
 import pandas as pd
 import numpy as np

@@ -21,9 +21,9 @@ F_inv = lambda y: np.sqrt(y)
 X = np.array([F_inv(Y[i]) for i in range(len(Y))])
 
 # Kolmagorov's criterion
-max_val = max((1/N - F(X[0])), F(X[0]))
+max_val = max((1/N - X[0]), X[0])
 for i in range(N):
-    possible_max_val = max(((i+1)/N - F(X[i])), (F(X[i]) - (i)/N))
+    possible_max_val = max(((i+1)/N - X[i]), (X[i] - (i)/N))
     max_val = max(max_val, possible_max_val)
 
 D_n = max_val
@@ -33,5 +33,5 @@ a = np.sqrt(N) * D_n
 b = 1/(12*N)
 
 for i in range(N):
-    b += (F(X[i]) - (2*(i+1) - 1)/(2*N))**2
+    b += (X[i] - (2*(i+1) - 1)/(2*N))**2
 

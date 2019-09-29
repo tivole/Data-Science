@@ -1,7 +1,7 @@
 # (c) Tivole
 
 # Constanst
-NUMBER_ON_TABLE = 20 # Your ID number on group list
+NUMBER_ON_TABLE = 7 # Your ID number on group list
 N = 100 # How many numbers you want to take as "First Sample"
 M = 100 # How many numbers you want to take as "Second Sample"
 

@@ -27,16 +27,16 @@ Y.sort()
 Y = np.array([G_inv(Y[i]) for i in range(len(Y))])
 
 # Function F^
-_F_ = lambda x: len([i for i in range(len(X)) if X[i] <= x]) / len(Y)
+_F_ = lambda x: len([i for i in range(len(X)) if X[i] <= x]) / len(X)
 
 # Function G^
 _G_ = lambda x: len([i for i in range(len(Y)) if Y[i] <= x]) / len(Y)
 
 # Finding D_nm_plus
-D_nm_plus = max([(i+1)/N - _G_(X[i]) for i in range(len(X))])
+D_nm_plus = max([((i+1)/N - _G_(X[i])) for i in range(len(X))])
 
 # Finding D_nm_minus
-D_nm_minus = max([(j+1)/M - _F_(Y[j]) for j in range(len(Y))])
+D_nm_minus = max([((j+1)/M - _F_(Y[j])) for j in range(len(Y))])
 
 # Finding statistics
 Criterion_Statistics = np.sqrt(M*N / (N + M)) * D_nm_plus

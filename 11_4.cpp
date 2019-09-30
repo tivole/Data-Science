@@ -21,7 +21,6 @@ int main() {
         fscanf(f, "%lf", &X[i]);
         X[i] = -log(1.0/X[i] - 1.0);
         mean_X += X[i];
-        printf("X[%d] = %lf\n", i, X[i]);
     }
 
     mean_X /= N;

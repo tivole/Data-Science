@@ -28,7 +28,7 @@ int main() {
 
     qsort (X, N, sizeof(double), Compare_Double);
 
-    MED_X = (X[N/2] + X[N/2 + 1]) / 2.0;
+    MED_X = (X[N/2 - 1] + X[N/2]) / 2.0;
     
     printf("mean_X = %lf\nMED_X = %lf\n", mean_X, MED_X);
 

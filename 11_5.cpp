@@ -9,7 +9,7 @@ using namespace std;
 
 #define N 100
 
-int F_emp(double *X, double x);
+double F_emp(double *X, double x);
 
 int main() {
 
@@ -31,7 +31,7 @@ int main() {
     return 0;
 }
 
-int F_emp(double *X, double x) {
+double F_emp(double *X, double x) {
     int value = 0;
     for (int i = 0; i < N; i++)
         if (X[i] <= x) value ++;

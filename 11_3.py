@@ -13,9 +13,9 @@ import matplotlib.pyplot as plt
 dataset = pd.read_csv('Random_Numbers.csv')
 
 # Modeling random values
-Y_1 = dataset.iloc[:N, (NUMBER_ON_TABLE - 1) - 1].values # 6 column
-Y_2 = dataset.iloc[:N, (NUMBER_ON_TABLE - 1)].values # 7 column
-Y_3 = dataset.iloc[:N, (NUMBER_ON_TABLE - 1) + 1].values # 8 column
+Y_1 = dataset.iloc[:N, (NUMBER_ON_TABLE - 1) - 1].values # NUMBER_ON_TABLE - 1 column
+Y_2 = dataset.iloc[:N, (NUMBER_ON_TABLE - 1)].values # NUMBER_ON_TABLE column
+Y_3 = dataset.iloc[:N, (NUMBER_ON_TABLE - 1) + 1].values # NUMBER_ON_TABLE + 1 column
 
 # Modeling with Distribution Function x^3
 X = np.array([max(Y_1[i], Y_2[i], Y_3[i]) for i in range(N)])

@@ -2,7 +2,7 @@
 
 # Constanst
 NUMBER_ON_TABLE = 7 # Your ID number on group list
-N = 20 # How many numbers you want to take
+N = 100 # How many numbers you want to take
 
 # Importing the libraries
 import pandas as pd

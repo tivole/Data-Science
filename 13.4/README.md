@@ -1,5 +1,5 @@
 # Классификация
 
 <p align="center">
-  <img src="img/13_2.png">
+  <img src="img/13_4.png">
 </p>

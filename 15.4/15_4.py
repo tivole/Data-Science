@@ -26,7 +26,7 @@ for i in range(N-1):
 
 b.sort()
 
-B = (b[int(N*(N-1)/4 - 1)] + b[int(N*(N-1)/4)]) / 2
+B = b[int(N*(N-1)/4 - 1)] if (int(N*(N-1)/2)) % 2 == 1 else (b[int(N*(N-1)/4 - 1)] + b[int(N*(N-1)/4)]) / 2
 
 # Calculating a
 a = []
@@ -35,6 +35,6 @@ for i in range(N):
 
 a.sort()
 
-A = (a[int(N/2 - 1)] + a[int(N/2)]) / 2
+A = a[int(N/2)] if int(N/2) % 2 == 1 else (a[int(N/2 - 1)] + a[int(N/2)]) / 2
 
 print(A, B)

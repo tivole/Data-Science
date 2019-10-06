@@ -29,6 +29,6 @@ B = np.dot(X.T, X)
 _tetta_ = np.dot(np.dot((np.linalg.inv(B)), X.T), etta)
 
 # Finding MSE of tetta
-mean_tetta_ = sum(_tetta_)[0]
+mean_tetta_ = sum(_tetta_)[0] / 4
 
-MSE_tetta = sum([(_tetta_[i][0] - mean_tetta_)**2 for i in range(4)]) / N
+MSE_tetta = sum([(_tetta_[i][0] - mean_tetta_)**2 for i in range(4)]) / 4

@@ -38,10 +38,10 @@ B = b[int(N*(N-1)/4 - 1)] if (int(N*(N-1)/2)) % 2 == 1 else (b[int(N*(N-1)/4 - 1
 # Calculating a
 a = []
 for i in range(N):
-    a.append(Y[i] - B * X[i])
+    a.append(etta[i] - B * X[i])
 a.sort()
 
-A = a[int(N/2)] if int(N/2) % 2 == 1 else (a[int(N/2 - 1)] + a[int(N/2)]) / 2
+A = a[int(N/2)] if int(N) % 2 == 1 else (a[int(N/2 - 1)] + a[int(N/2)]) / 2
 
 
 # Visualising

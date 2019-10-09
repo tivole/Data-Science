@@ -11,6 +11,7 @@ N = 8 # Dimention of cube
 # Importing dataset
 dataset = pd.read_csv('Random_Numbers.csv')
 Y = dataset.iloc[:, :N].values
+Y = [(Y[i] * 2 - 1) for i in range(len(Y))]
 
 # Calculation frequence
 ans = 0

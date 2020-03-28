@@ -8,3 +8,10 @@
 - D. J. White, 1993, [A Survey of Applications of Markov Decision Processes](http://www.cs.uml.edu/ecg/uploads/AIfall14/MDPApplications3.pdf)
 - Martijn van Otterlo, 2009, [Markov Decision Processes: Concepts and Algorithms](https://pdfs.semanticscholar.org/968b/ab782e52faf0f7957ca0f38b9e9078454afe.pdf)
 - Richard Sutton, 1988, [Learning to Predict by the Methods of Temporal Differences](https://link.springer.com/article/10.1007/BF00115009)
+
+
+## Self-Driving Car (Deep Q-Learning)
+
+- Arthur Juliani, 2016, [Simple Reinforcement Learning with Tensorflow (Part 4)](https://medium.com/@awjuliani/simple-reinforcement-learning-with-tensorflow-part-4-deep-q-networks-and-beyond-8438a3e2b8df)
+- Tom Schaul et al., Google DeepMind, 2016, [Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf)
+- Michel Tokic, 2010, [Adaptive ε-greedy Exploration in Reinforcement Learning Based on Value Differences](http://tokic.com/www/tokicm/publikationen/papers/AdaptiveEpsilonGreedyExploration.pdf)

@@ -10,8 +10,13 @@
 - Richard Sutton, 1988, [Learning to Predict by the Methods of Temporal Differences](https://link.springer.com/article/10.1007/BF00115009)
 
 
-## Self-Driving Car (Deep Q-Learning)
+## Deep Q-Learning
 
 - Arthur Juliani, 2016, [Simple Reinforcement Learning with Tensorflow (Part 4)](https://medium.com/@awjuliani/simple-reinforcement-learning-with-tensorflow-part-4-deep-q-networks-and-beyond-8438a3e2b8df)
 - Tom Schaul et al., Google DeepMind, 2016, [Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf)
 - Michel Tokic, 2010, [Adaptive ε-greedy Exploration in Reinforcement Learning Based on Value Differences](http://tokic.com/www/tokicm/publikationen/papers/AdaptiveEpsilonGreedyExploration.pdf)
+
+
+## Deep Convolutional Q-Learning
+- Richard S. Sutton and Andrew G. Barto, 1998, [Reinforcement Learning: An Introduction](https://mitpress.mit.edu/books/reinforcement-learning)
+- Volodymyr Mnih et al., 2016, [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/pdf/1602.01783.pdf)

@@ -18,5 +18,14 @@
 
 
 ## Deep Convolutional Q-Learning
+
 - Richard S. Sutton and Andrew G. Barto, 1998, [Reinforcement Learning: An Introduction](https://mitpress.mit.edu/books/reinforcement-learning)
 - Volodymyr Mnih et al., 2016, [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/pdf/1602.01783.pdf)
+
+
+## Asynchronous Actor-Critic Agents: A3C
+
+- Volodymyr Mnih et al, 2016 [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/pdf/1602.01783.pdf)
+- Jaromír Janisch, 2017 [Let’s Make An A3c: Implementation](https://jaromiru.com/2017/03/26/lets-make-an-a3c-implementation/)
+- John Schulman et al., 2016 [High-dimensional Continuous Control Using Generalized Advantage Estimation](https://arxiv.org/pdf/1506.02438.pdf)
+- Arthur Juliani, 2016 [ Simple Reinforcement Learning with Tensorflow (Part 8)](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2)

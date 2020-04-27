@@ -77,7 +77,7 @@ VALUES
         '+79525551898',
         'glazkovandrei@yandex.ru'
     );
-    
+
 INSERT INTO personalities
     (personality_id,
     surname,
@@ -449,4 +449,95 @@ VALUES
         '2000-04-22',
         '2000-04-29',
         TRUE
+    );
+
+INSERT INTO personal_information
+    (
+    id,
+    personality_id,
+    information_id
+    )
+VALUES
+    (
+        1,
+        1,
+        2
+    );
+
+INSERT INTO personal_information
+    (
+    id,
+    personality_id,
+    information_id
+    )
+VALUES
+    (
+        2,
+        3,
+        5
+    );
+
+INSERT INTO personal_information
+    (
+    id,
+    personality_id,
+    information_id
+    )
+VALUES
+    (
+        3,
+        2,
+        1
+    );
+
+INSERT INTO personal_information
+    (
+    id,
+    personality_id,
+    information_id
+    )
+VALUES
+    (
+        4,
+        5,
+        3
+    );
+
+INSERT INTO personal_information
+    (
+    id,
+    personality_id,
+    information_id
+    )
+VALUES
+    (
+        5,
+        4,
+        4
+    );
+
+INSERT INTO personal_information
+    (
+    id,
+    personality_id,
+    information_id
+    )
+VALUES
+    (
+        6,
+        6,
+        7
+    );
+
+INSERT INTO personal_information
+    (
+    id,
+    personality_id,
+    information_id
+    )
+VALUES
+    (
+        7,
+        7,
+        6
     );

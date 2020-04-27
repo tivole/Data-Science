@@ -2,7 +2,7 @@
 CREATE TABLE personalities
 (
     -- ID
-    personality_id INTEGER NOT NULL PRIMARY KEY,
+    personality_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 
     -- фамилия
     surname NVARCHAR(35),
@@ -58,7 +58,7 @@ CREATE TABLE personalities
 CREATE TABLE participation_information
 (
     -- ID
-    information_id INTEGER NOT NULL PRIMARY KEY,
+    information_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 
     -- докладчик или участник
     speaker_or_participant NVARCHAR(15),
@@ -98,11 +98,15 @@ CREATE TABLE participation_information
 -- таблица связывающая таблицу "personalities" с таблицой "participation_information"
 CREATE TABLE personal_information
 (
-    id INTEGER NOT NULL PRIMARY KEY,
+    personality_id INTEGER NOT NULL,
+    
+    information_id INTEGER NOT NULL,
+    
+    FOREIGN KEY (personality_id)
+       REFERENCES personalities (personality_id),
 
-    CONSTRAINT personality_id FOREIGN KEY (personality_id)
-        REFERENCES personalities(personality_id),
+    FOREIGN KEY (information_id)
+       REFERENCES participation_information (information_id),
 
-    CONSTRAINT information_id FOREIGN KEY (information_id)
-        REFERENCES participation_information(information_id),
+    PRIMARY KEY (personality_id, information_id)
 );

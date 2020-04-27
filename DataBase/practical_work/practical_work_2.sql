@@ -1,7 +1,7 @@
 
 -- insert some values
 INSERT INTO personalities
-    (personality_id,
+    (
     surname,
     firstname,
     patronymic,
@@ -17,10 +17,10 @@ INSERT INTO personalities
     home_address,
     work_phone,
     home_phone,
-    e_mail)
+    e_mail
+    )
 VALUES
     (
-        1,
         'Toretto',
         'Elovit',
         'Sergio',
@@ -40,7 +40,7 @@ VALUES
     );
 
 INSERT INTO personalities
-    (personality_id,
+    (
     surname,
     firstname,
     patronymic,
@@ -56,10 +56,10 @@ INSERT INTO personalities
     home_address,
     work_phone,
     home_phone,
-    e_mail)
+    e_mail
+    )
 VALUES
     (
-        2,
         'Glazkov',
         'Andrei',
         'Abramovich',
@@ -70,7 +70,7 @@ VALUES
         'Probability Theory and Statistics',
         'Lecturer',
         'Russia',
-        'Moscow',
+        'San Peterburq',
         '191122',
         'g. MOSKVA, ul. Lesnaya d. 5, kv. 123',
         '+79045552188',
@@ -79,7 +79,7 @@ VALUES
     );
 
 INSERT INTO personalities
-    (personality_id,
+    (
     surname,
     firstname,
     patronymic,
@@ -95,10 +95,10 @@ INSERT INTO personalities
     home_address,
     work_phone,
     home_phone,
-    e_mail)
+    e_mail
+    )
 VALUES
     (
-        3,
         'Kostin',
         'Ivan',
         'Ivanovich',
@@ -118,7 +118,7 @@ VALUES
     );
 
 INSERT INTO personalities
-    (personality_id,
+    (
     surname,
     firstname,
     patronymic,
@@ -134,10 +134,10 @@ INSERT INTO personalities
     home_address,
     work_phone,
     home_phone,
-    e_mail)
+    e_mail
+    )
 VALUES
     (
-        4,
         'Sidorov',
         'Taras',
         'Stepanovich',
@@ -148,7 +148,7 @@ VALUES
         'Programming',
         'Lecturer',
         'Russia',
-        'Moscow',
+        'San Peterburq',
         '191312',
         'g. MOSKVA, ul. Qaqarina d. 2, kv. 35',
         '+79043656152',
@@ -157,7 +157,7 @@ VALUES
     );
 
 INSERT INTO personalities
-    (personality_id,
+    (
     surname,
     firstname,
     patronymic,
@@ -173,10 +173,10 @@ INSERT INTO personalities
     home_address,
     work_phone,
     home_phone,
-    e_mail)
+    e_mail
+    )
 VALUES
     (
-        5,
         'Vasilyev',
         'Vlad',
         'Vityaovich',
@@ -196,7 +196,7 @@ VALUES
     );
 
 INSERT INTO personalities
-    (personality_id,
+    (
     surname,
     firstname,
     patronymic,
@@ -212,10 +212,10 @@ INSERT INTO personalities
     home_address,
     work_phone,
     home_phone,
-    e_mail)
+    e_mail
+    )
 VALUES
     (
-        6,
         'Preobrazhensky',
         'Roman',
         'Rolanovich',
@@ -236,7 +236,6 @@ VALUES
 
 INSERT INTO participation_information
     (
-    information_id,
     speaker_or_participant,
     first_inv_date,
     application_date,
@@ -251,7 +250,6 @@ INSERT INTO participation_information
     )
 VALUES
     (
-        1,
         'speaker',
         '2020-04-20',
         '2000-04-21',
@@ -267,7 +265,6 @@ VALUES
 
 INSERT INTO participation_information
     (
-    information_id,
     speaker_or_participant,
     first_inv_date,
     application_date,
@@ -282,7 +279,6 @@ INSERT INTO participation_information
     )
 VALUES
     (
-        2,
         'speaker',
         '2020-04-19',
         '2000-04-20',
@@ -298,7 +294,6 @@ VALUES
 
 INSERT INTO participation_information
     (
-    information_id,
     speaker_or_participant,
     first_inv_date,
     application_date,
@@ -313,7 +308,6 @@ INSERT INTO participation_information
     )
 VALUES
     (
-        3,
         'speaker',
         '2020-04-20',
         '2000-04-22',
@@ -329,7 +323,6 @@ VALUES
 
 INSERT INTO participation_information
     (
-    information_id,
     speaker_or_participant,
     first_inv_date,
     application_date,
@@ -344,7 +337,6 @@ INSERT INTO participation_information
     )
 VALUES
     (
-        4,
         'speaker',
         '2020-04-18',
         '2000-04-20',
@@ -360,7 +352,6 @@ VALUES
 
 INSERT INTO participation_information
     (
-    information_id,
     speaker_or_participant,
     first_inv_date,
     application_date,
@@ -375,7 +366,6 @@ INSERT INTO participation_information
     )
 VALUES
     (
-        5,
         'participant',
         '2020-04-17',
         '2000-04-20',
@@ -391,7 +381,6 @@ VALUES
 
 INSERT INTO participation_information
     (
-    information_id,
     speaker_or_participant,
     first_inv_date,
     application_date,
@@ -406,7 +395,6 @@ INSERT INTO participation_information
     )
 VALUES
     (
-        6,
         'participant',
         '2020-04-17',
         '2000-04-20',
@@ -422,7 +410,6 @@ VALUES
 
 INSERT INTO participation_information
     (
-    information_id,
     speaker_or_participant,
     first_inv_date,
     application_date,
@@ -437,7 +424,6 @@ INSERT INTO participation_information
     )
 VALUES
     (
-        7,
         'participant',
         '2020-04-17',
         '2000-04-20',
@@ -453,91 +439,77 @@ VALUES
 
 INSERT INTO personal_information
     (
-    id,
     personality_id,
     information_id
     )
 VALUES
     (
-        1,
         1,
         2
     );
 
 INSERT INTO personal_information
     (
-    id,
     personality_id,
     information_id
     )
 VALUES
     (
-        2,
         3,
         5
     );
 
 INSERT INTO personal_information
     (
-    id,
     personality_id,
     information_id
     )
 VALUES
     (
-        3,
         2,
         1
     );
 
 INSERT INTO personal_information
     (
-    id,
     personality_id,
     information_id
     )
 VALUES
     (
-        4,
         5,
         3
     );
 
 INSERT INTO personal_information
     (
-    id,
     personality_id,
     information_id
     )
 VALUES
     (
-        5,
         4,
         4
     );
 
 INSERT INTO personal_information
     (
-    id,
     personality_id,
     information_id
     )
 VALUES
     (
-        6,
         6,
         7
     );
 
 INSERT INTO personal_information
     (
-    id,
     personality_id,
     information_id
     )
 VALUES
     (
-        7,
         7,
         6
     );

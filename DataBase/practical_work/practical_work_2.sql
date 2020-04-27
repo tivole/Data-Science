@@ -233,3 +233,220 @@ VALUES
         '+79523122787',
         'rolanovichpreobr@yandex.ru'
     );
+
+INSERT INTO participation_information
+    (
+    information_id,
+    speaker_or_participant,
+    first_inv_date,
+    application_date,
+    topic,
+    abstract_entry_mark,
+    second_inv_date,
+    date_of_registration_fee,
+    amount_of_the_registration_fee,
+    date_of_arrival,
+    departure_date,
+    hotel_need
+    )
+VALUES
+    (
+        1,
+        'speaker',
+        '2020-04-20',
+        '2000-04-21',
+        'Counting conjectures and beyond',
+        'Entried',
+        '2000-04-23',
+        '2000-04-24',
+        91.5,
+        '2000-04-21',
+        '2000-04-26',
+        TRUE
+    );
+
+INSERT INTO participation_information
+    (
+    information_id,
+    speaker_or_participant,
+    first_inv_date,
+    application_date,
+    topic,
+    abstract_entry_mark,
+    second_inv_date,
+    date_of_registration_fee,
+    amount_of_the_registration_fee,
+    date_of_arrival,
+    departure_date,
+    hotel_need
+    )
+VALUES
+    (
+        2,
+        'speaker',
+        '2020-04-19',
+        '2000-04-20',
+        'Tropical Geometry, Berkovich Spaces, Arithmetic D-Modules and p-adic Local Systems',
+        'Entried',
+        '2000-04-23',
+        '2000-04-24',
+        131.5,
+        '2000-04-21',
+        '2000-04-27',
+        TRUE
+    );
+
+INSERT INTO participation_information
+    (
+    information_id,
+    speaker_or_participant,
+    first_inv_date,
+    application_date,
+    topic,
+    abstract_entry_mark,
+    second_inv_date,
+    date_of_registration_fee,
+    amount_of_the_registration_fee,
+    date_of_arrival,
+    departure_date,
+    hotel_need
+    )
+VALUES
+    (
+        3,
+        'speaker',
+        '2020-04-20',
+        '2000-04-22',
+        'Simple groups, representations and applications',
+        'Entried',
+        '2000-04-23',
+        '2000-04-24',
+        101.2,
+        '2000-04-22',
+        '2000-04-27',
+        TRUE
+    );
+
+INSERT INTO participation_information
+    (
+    information_id,
+    speaker_or_participant,
+    first_inv_date,
+    application_date,
+    topic,
+    abstract_entry_mark,
+    second_inv_date,
+    date_of_registration_fee,
+    amount_of_the_registration_fee,
+    date_of_arrival,
+    departure_date,
+    hotel_need
+    )
+VALUES
+    (
+        4,
+        'speaker',
+        '2020-04-18',
+        '2000-04-20',
+        'Algebraic Geometry of Matroids',
+        'Entried',
+        '2000-04-23',
+        '2000-04-24',
+        81.9,
+        '2000-04-22',
+        '2000-04-28',
+        FALSE
+    );
+
+INSERT INTO participation_information
+    (
+    information_id,
+    speaker_or_participant,
+    first_inv_date,
+    application_date,
+    topic,
+    abstract_entry_mark,
+    second_inv_date,
+    date_of_registration_fee,
+    amount_of_the_registration_fee,
+    date_of_arrival,
+    departure_date,
+    hotel_need
+    )
+VALUES
+    (
+        5,
+        'participant',
+        '2020-04-17',
+        '2000-04-20',
+        'A conference in celebration of the 60th Birthday of Bill Crawley-Boevey',
+        'Entried',
+        '2000-04-23',
+        '2000-04-24',
+        171.8,
+        '2000-04-22',
+        '2000-04-28',
+        TRUE
+    );
+
+INSERT INTO participation_information
+    (
+    information_id,
+    speaker_or_participant,
+    first_inv_date,
+    application_date,
+    topic,
+    abstract_entry_mark,
+    second_inv_date,
+    date_of_registration_fee,
+    amount_of_the_registration_fee,
+    date_of_arrival,
+    departure_date,
+    hotel_need
+    )
+VALUES
+    (
+        6,
+        'participant',
+        '2020-04-17',
+        '2000-04-20',
+        '7th Biennial IMA Conference on Numerical Linear Algebra and Optimization',
+        'Entried',
+        '2000-04-23',
+        '2000-04-24',
+        175.8,
+        '2000-04-22',
+        '2000-04-28',
+        TRUE
+    );
+
+INSERT INTO participation_information
+    (
+    information_id,
+    speaker_or_participant,
+    first_inv_date,
+    application_date,
+    topic,
+    abstract_entry_mark,
+    second_inv_date,
+    date_of_registration_fee,
+    amount_of_the_registration_fee,
+    date_of_arrival,
+    departure_date,
+    hotel_need
+    )
+VALUES
+    (
+        7,
+        'participant',
+        '2020-04-17',
+        '2000-04-20',
+        'High Dimensional Hamilton-Jacobi PDEs — Workshop III: Mean Field Games and Applications',
+        'Entried',
+        '2000-04-23',
+        '2000-04-24',
+        73.0,
+        '2000-04-22',
+        '2000-04-29',
+        TRUE
+    );
